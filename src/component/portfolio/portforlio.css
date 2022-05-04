@@ -1,0 +1,37 @@
+.portforlio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2.5rem;
+}
+
+
+.portforlio__item {
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: 1s ease-in all;
+}
+
+.portforlio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portforlio__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.portforlio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 600px) {
+  
+}

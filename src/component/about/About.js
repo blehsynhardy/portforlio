@@ -17,28 +17,33 @@ const About = () => {
             </div>
            <div className='about__content'>
                 <div className='about__cards'>
-                        <figures className='about__card'>
-                            <FaAward className='about__award' />
+                        <figure className='about__card'>
+                            <FaAward className='about__icons' />
                             <h5>Expirence</h5>
                             <small>5+</small>
-                        </figures>
+                        </figure>
 
-                        <figures className='about__card'>
-                            <FaAward className='about__award' />
-                            <h5>Expirence</h5>
-                            <small>5+</small>
-                        </figures>
+                        <figure className='about__card'>
+                            <FaAward className='about__icons' />
+                            <h5>Testimonies</h5>
+                            <small>100+</small>
+                        </figure>
 
-                        <figures className='about__card'>
-                            <FaAward className='about__award' />
-                            <h5>Expirence</h5>
-                            <small>5+</small>
-                        </figures>
+                        <figure className='about__card'>
+                            <FaAward className='about__icons' />
+                            <h5>Client</h5>
+                            <small>50+</small>
+                        </figure>
 
                     </div>
-                 <p>
-                    My name is Atomicity i live in a house with 2 sibling am very angry right noe
-                 </p>
+                    <div className='about__content'>
+                        <p>
+                        My name is Atomicity i live in a house with 2 sibling am very angry right noe
+                        My name is Atomicity i live in a house with 2 sibling am very angry right noe
+                        My name is Atomicity i live in a house with 2 sibling am very angry right noe
+                        </p>
+                    </div>
+               
                  <button className='btn btn-primary'>SHOW MORE</button>
            </div>
         </div>
