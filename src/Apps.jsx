@@ -6,6 +6,8 @@ import Service from './component/services/Service'
 import {BrowserRouter, Routes, Route, link} from 'react-router-dom';
 import Link from './Linker';
 import Portforlio from './component/portfolio/Portforlio';
+import Testimonies from './component/testimonies/Testimonies';
+import Contact from './component/contact/Contact';
 
 const Pages = () => {
   return (
@@ -16,6 +18,8 @@ const Pages = () => {
        <Experience/>
        <Service />
        <Portforlio />
+       <Testimonies/>
+       <Contact />
     </>
   )
 }

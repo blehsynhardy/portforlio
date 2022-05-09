@@ -13,6 +13,12 @@ const data = [
         img: "IMG2",
         name: "Task ",
 
+    },
+
+    {
+        img: "IMG3",
+        name: "Task ",
+
     }
 ]
 
