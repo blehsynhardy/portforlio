@@ -10,13 +10,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 const data = [
     {
         avatar : AVR1,
-        testifier: 'Awodele Blessing',
-        description: '  Problem-solving software engineering professional with a positive attitude. Promotes excellent communication and organisational skills. Seeking a software engineering position that builds tools and services, which make a positive impact in the daily environment.'
+        testifier: 'Awodele James',
+        description: ' Problem-solving software engineering professional with a positive attitude. Promotes excellent communication and organisational skills. Seeking a software engineering.'
     },
     {
         avatar : AVR2,
@@ -25,7 +25,7 @@ const data = [
     },
     {
         avatar : AVR3,
-        testifier: 'Awodele Blessing',
+        testifier: 'Pryde London',
         description: '  Problem-solving software engineering professional with a positive attitude. Promotes excellent communication and organisational skills. Seeking a software engineering.'
     },
 ]
@@ -37,7 +37,7 @@ const Testimonies = () => {
             <h2>Testimonials</h2>
 
             <div className="container testimonies__container">
-            <Swiper pagination={true} modules={[Pagination]} slidesPerView={1} spaceBetween={40} className="mySwiper">
+            <Swiper autoplay={{delay: 2500,disableOnInteraction: false}} pagination={{clickable:true}} modules={[Pagination, Autoplay]} slidesPerView={1} spaceBetween={40} className="mySwiper">
                 {
                   data.map((datas, index) => (
                     <SwiperSlide key={index} className='testimonies'>

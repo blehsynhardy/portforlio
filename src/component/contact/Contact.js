@@ -1,5 +1,7 @@
 import './contact.css';
-
+import { RiWhatsappFill } from 'react-icons/ri';
+import { FaFacebook } from 'react-icons/fa';
+import { AiTwotoneMail } from 'react-icons/ai';
 const Contact = () => {
     return  (
         <section id="contact">
@@ -9,17 +11,20 @@ const Contact = () => {
             <div className="container container__contact">
                 <div className="contact__options">
                     <article className="contact__option">
+                        <AiTwotoneMail className='contact__option-icons'/>
                         <h4>Email</h4>
                         <h5>blessingawodele@mgmail.com</h5>
                         <a href="mailto:blessingawodele@gmail.com">Send a message</a>
                     </article>
         
                     <article className="contact__option">
+                        <FaFacebook className='contact__option-icons'/>
                         <h4>Facebook</h4>
                         <h5>blessingawodele@mgmail.com</h5>
                         <a href="mailto:blessingawodele@gmail.com">Send a message</a>
                     </article>
                     <article className="contact__option">
+                        <RiWhatsappFill className='contact__option-icons'/>
                         <h4>Whatsapp</h4>
                         <h5>blessingawodele@mgmail.com</h5>
                         <a href="mailto:blessingawodele@gmail.com">Send a message</a>
